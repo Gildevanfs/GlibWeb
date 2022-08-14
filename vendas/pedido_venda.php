@@ -119,6 +119,7 @@ if ((!isset($_SESSION['email']) == true) and (!isset($_SESSION['senha']) == true
             $sqlApNt = "DELETE from cad_vendas where id_nota = ".$_GET['cod'];
             $resultApNt = mysqli_query($conn, $sqlApNt);
 
+            header('Location: pedido_venda');
 
             }
             exit;
