@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap');
+@import url('https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    color: #00569F;
+    background-color: #F1F1F1;
+    
+}
+
+.tituloPage{
+    margin-bottom: 3px;
+}
+
+td, td, th, h1{
+    color: #00569F;
+}
+
+table{
+
+    padding-top: 35px;
+}
+
+hr {
+    height: 3px;
+    background: #00569F;
+    border: none;
+}
+
+
+.inputBox {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 60%;
+}
+
+.inputUser {
+    border-radius: 5px;
+    height: 30px;
+    border: none;
+    outline: 0;
+}
+
+.inputLabel {
+    display: flex;
+}
+
+.botForm{
+    width: 40%;
+    float:left;
+}
+
+#submit_green {
+    text-align:center;
+    background-color: #1C8E35;
+    color: aliceblue;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
+}
+#submit_green:hover {
+    background-color: #0f531e;
+    font-weight: 600;
+    
+}
+
+#submit_red {
+    text-align: center;
+    background-color: #D40001;
+    color: aliceblue;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;  
+    text-decoration: none;  
+    font-family: 'Quicksand', sans-serif;
+
+}
+#submit_red:hover {
+    background-color: #b93c2e;
+    font-weight: 600;
+}
+
+#data_nascimento {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    color: #00569F;
+}
+
+#preco_produto, #vida_util{
+    width: 100px;
+ }
+ 
+ #cod_barras{
+    width: 150px;
+ }
+
+ #submit_reda {
+    text-align: center;
+    background-color: #D40001;
+    color: aliceblue;
+    padding: 8px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;  
+    text-decoration: none;  
+    font-family: 'Quicksand', sans-serif;
+}
+#submit_reda:hover {
+    background-color: #b93c2e;
+    font-weight: 600;
+}
+
+
+#codProduto {
+    width: 45px;
+    border: 1px;
+    border-width: 2px;
+    border-style:solid;
+    margin-right: 15px;
+}
+
+#codCliente {
+    width: 130px;
+    border: 1px;
+    border-width: 2px;
+    border-style:solid;
+    margin-right: 15px;
+    border-color: #00569F;
+}
+
+#descProduto {
+    width: 300px;
+    border: 1px;
+    border-width: 2px;
+    border-style:solid;
+    margin-right: 15px;
+    border-color: #00569F;
+}
+
+#nomeCliente {
+    width: 438px;
+    border: 1px;
+    border-width: 2px;
+    border-style:solid;
+    margin-right: 15px;
+    border-color: #00569F;
+}
+
+#qtdProduto {
+    width: 45px;
+    border: 1px;
+    border-width: 2px;
+    border-style:solid;
+    margin-right: 35px;
+}
+
+.divCabecalho {
+    display: flex;
+    flex-direction: column;
+    color: #00569F;
+
+}
+
+.formCadVenda {
+    margin-top: 30px;
+}
+
+.formCliente {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    font-size: 20px;
+
+}
+
+.formCliente form {
+
+        align-items: center;
+}
+
+
+.formCliente a{
+    margin-right: 15px;
+
+}
+
+.formItem a{
+    margin-right: 15px;
+
+}
+
+.formItem {
+    display: flex;
+    color: #00569F;
+    flex-direction: column;
+}
+
+.divFormItem {
+    display: flex;
+}
+
+.divVendasQtd {
+    display: flex;
+    align-items: center;
+}
+
+.divVendasQtd Label {
+    margin-right: 15px
+}
+
+.btConfirm {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+
+.btConfirm a{
+    margin-right: 50px;
+}

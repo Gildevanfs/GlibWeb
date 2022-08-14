@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap');
+
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    color: #00569F;
+    background-color: #F1F1F1;
+}
+
+.tituloPage{
+    margin-bottom: 3px;
+}
+
+.formCadUsuario {
+    padding: 0px;
+    margin: 0px;
+}
+
+hr {
+    height: 3px;
+    background: #00569F;
+    border: none;
+}
+
+
+.inputBox {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 60%;
+}
+
+.inputUser {
+    border-radius: 5px;
+    height: 30px;
+    border: none;
+    outline: 0;
+}
+
+.botForm{
+    width: 40%;
+    float:left;
+}
+
+#submit_green {
+    text-align:center;
+    background-color: #1C8E35;
+    color: aliceblue;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#submit_green:hover {
+    background-color: #0f531e;
+    font-weight: 600;
+}
+
+#submit_red {
+    text-align: center;
+    background-color: #D40001;
+    color: aliceblue;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;    
+
+}
+
+#submit_red:hover {
+    background-color: #b93c2e;
+    font-weight: 600;
+}
+
+#submit_blue {
+    text-align: center;
+    background-color: #098BC7;
+    color: aliceblue;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;    
+
+}
+
+#submit_blue:hover {
+    background-color: #055b83;
+    font-weight: 600;
+}
+
+
+
+#data_nascimento {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    color: #00569F;
+}
+
+#submit_reda {
+    text-align: center;
+    background-color: #D40001;
+    color: aliceblue;
+    padding: 8px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;  
+    text-decoration: none;  
+    font-family: 'Quicksand', sans-serif;
+}
+#submit_reda:hover {
+    background-color: #b93c2e;
+    font-weight: 600;
+}
